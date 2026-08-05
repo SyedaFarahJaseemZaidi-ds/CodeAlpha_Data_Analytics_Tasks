@@ -1,37 +1,54 @@
-# Data Analytics Internship Projects — CodeAlpha
-
-Welcome to my repository for the **CodeAlpha Data Analytics Internship**. This repository contains the complete implementation, scripts, and documentation for the assigned data analytics tasks.
-
----
+## Data Analytics internship projects for CodeAlpha. Includes Task 1 (Web Scraping), Task 2 (Exploratory Data Analysis), Task 3 (Data Visualization), and Task 4 (Sentiment Analysis) using Python, BeautifulSoup, Pandas, Matplotlib, Seaborn, and NLTK.
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end data analytics pipeline, spanning data acquisition, cleaning, exploratory data analysis, and visual data storytelling.
+# CodeAlpha Data Analytics Tasks 📊✨
 
-### Completed Tasks:
-1. **Task 1: Web Scraping** — Automated data extraction from a public web source into structured format.
-2. **Task 2: Exploratory Data Analysis (EDA)** — Data cleaning, structure analysis, hypothesis testing, and summary statistics.
-3. **Task 3: Data Visualization** — Creating informative and compelling visual data stories using Python charting libraries.
+This repository contains all four Data Analytics internship tasks completed for **CodeAlpha**. Each project demonstrates practical data handling skills using Python in Google Colab.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🚀 Tasks Overview
 
-* **Language:** Python
-* **Environment:** Google Colab / Jupyter Notebooks
-* **Web Scraping:** `requests`, `BeautifulSoup`
-* **Data Processing & Analysis:** `pandas`, `numpy`
-* **Data Visualization:** `matplotlib`, `seaborn`
-* **Version Control:** Git & GitHub
+### 1️⃣ Task 1: Web Scraping
+* **Objective:** Extract live product data from an e-commerce website.
+* **Tools Used:** `requests`, `BeautifulSoup`, `pandas`
+* **File:** `Task1_Web_Scraping.ipynb`
+* **Details:** Scraped book titles, prices, and availability status from [Books to Scrape](http://books.toscrape.com/) and converted the data into a structured format.
 
 ---
 
-## 📁 Repository Structure
+### 2️⃣ Task 2: Exploratory Data Analysis (EDA)
+* **Objective:** Clean raw dataset and generate key statistical insights.
+* **Tools Used:** `pandas`, `numpy`
+* **File:** `Task2_EDA.ipynb`
+* **Details:** Handled data types, cleaned currency symbols from prices, checked for missing values, and calculated summary statistics (mean, median, standard deviation).
 
-```text
-├── Task1_Web_Scraping.ipynb       # Jupyter Notebook for web scraping
-├── Task2_EDA.ipynb                 # Jupyter Notebook for exploratory data analysis
-├── Task3_Data_Visualization.ipynb  # Jupyter Notebook for visual analytics
-├── scraped_books.csv              # Raw extracted dataset from Task 1
-├── cleaned_books.csv              # Processed dataset from Task 2
-└── README.md                      # Internship documentation
+---
+
+### 3️⃣ Task 3: Data Visualization
+* **Objective:** Represent findings visually to discover trends and distributions.
+* **Tools Used:** `matplotlib`, `seaborn`
+* **File:** `Task3_Data_Visualization.ipynb`
+* **Details:** Generated histogram plots for price distributions and bar charts highlighting the top most expensive books in the dataset.
+
+---
+
+### 4️⃣ Task 4: Sentiment Analysis
+* **Objective:** Perform Natural Language Processing (NLP) to classify text sentiment.
+* **Tools Used:** `nltk` (VADER Sentiment Intensity Analyzer), `seaborn`, `pandas`
+* **File:** `Task4_Sentiment_Analysis.ipynb`
+* **Details:** Analyzed book titles to categorize them into Positive, Negative, or Neutral sentiment classes and visualized the sentiment distribution.
+
+---
+
+## 🛠️ Tech Stack & Libraries
+* **Language:** Python 3
+* **Environment:** Google Colab
+* **Libraries:** Pandas, BeautifulSoup4, Requests, Matplotlib, Seaborn, NLTK
+
+---
+
+## 👤 Author
+* **Name:** Syeda Farah Jaseem Zaidi
+* **Internship:** CodeAlpha Data Analytics
